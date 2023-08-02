@@ -1,0 +1,14 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
+
+#[dependencies]
+# foo = { path = "vendor/foo" }
+
+[dependencies]
+starknet = ">=2.0.1"
+
+# need to target the starknet contract build in scarb
+[[target.starknet-contract]]
